@@ -25,9 +25,6 @@ PRODUCT_BRAND := htc_europe
 PRODUCT_MODEL := One X+
 PRODUCT_MANUFACTURER := HTC
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/htc/enrc2b/device_enrc2b.mk)
 
