@@ -105,13 +105,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/usr/idc/tv-touchscreen.idc:system/usr/idc/tv-touchscreen.idc \
     $(LOCAL_PATH)/prebuilt/usr/idc/projector_input.idc:system/usr/idc/projector_input.idc
 
-# Proprietary audio files
-# This is needed for audio to work
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
-    $(LOCAL_PATH)/prebuilt/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
-    $(LOCAL_PATH)/prebuilt/lib/libasound.so:system/lib/libasound.so
-
 # Sound
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/soundimage/CodecDSPID.txt:system/etc/soundimage/CodecDSPID.txt \
