@@ -72,6 +72,5 @@ TARGET_KERNEL_CONFIG := cyanogenmod_enrc2b_defconfig
 # Don't build docs
 DISABLE_DROIDDOC := true
 
-TARGET_PREBUILT_KERNEL := device/htc/enrc2b/recovery/recovery-kernel
-
+TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/enrc2b/recovery/recovery-kernel
 BOARD_HAS_NO_SELECT_BUTTON := true
