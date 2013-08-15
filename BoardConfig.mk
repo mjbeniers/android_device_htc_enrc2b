@@ -19,7 +19,7 @@
 TARGET_BOOTLOADER_BOARD_NAME := enrc2b
 
 #for 4.2.2 camera blob
-COMMON_GLOBAL_CFLAGS := -DHTC_CAMERA_HARDWARE
+COMMON_GLOBAL_CFLAGS += -DHTC_CAMERA_HARDWARE
 
 # Optimization build flags
 TARGET_GLOBAL_CFLAGS += -mtune=cortex-a9 -mfpu=neon -mfloat-abi=softfp
