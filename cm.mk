@@ -25,7 +25,6 @@ PRODUCT_BRAND := htc_europe
 PRODUCT_MODEL := One X+
 PRODUCT_MANUFACTURER := HTC
 
-CM_BUILDTYPE := NIGHTLY
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
